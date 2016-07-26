@@ -1,0 +1,56 @@
+body {
+  padding: 50px;
+  font: 14px "Lucida Grande", Helvetica, Arial, sans-serif;
+}
+
+a {
+  color: #00B7FF;
+}
+
+.cntr
+{
+    width: 728px;
+    height: 96px;
+    padding-right: 19px;
+    background-color: white;
+}
+
+.cntr > img
+{
+    width: 106px;
+    height: 96px;
+    margin-right: 10px;
+}
+
+.cntr > span
+{
+    font-family: "Arial";
+    color: #575757;
+    vertical-align: middle;
+}
+
+.cntr > span:first-of-type
+{
+    font-size: 36px;
+    font-weight: bold;
+    text-align: left;
+}
+
+.cntr > span:last-of-type
+{
+    font-size: 18px;
+    width: 176px;
+    float: right;
+    margin-top: 10px;
+    text-align: center;
+}
+
+.maleBorder
+{
+    border: 4px solid #37d5fe;
+}
+
+.femaleBorder
+{
+    border: 4px solid #ee4494;
+}

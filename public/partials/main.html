@@ -1,0 +1,11 @@
+
+<div class="jumbotron">
+  <div class="container">
+    <h1>For Point Source</h1>
+    <div>
+      <div class="cntr"><img ng-src="{{ 'http://applicant.pointsource.us/' + base.people.person.imageURL }}" ng-class="{maleBorder: base.people.person.gender == 'male', femaleBorder: base.people.person.gender == 'female'}"/><span>{{ base.people.person.firstName + ' ' + base.people.person.familyName }}</span><span>{{ base.people.person.address.houseNumber + ' ' + base.people.person.address.streetName + ' ' + base.people.person.address.city + ', ' +  base.people.person.address.state + ' ' + base.people.person.address.zip }}</span></div>
+    </div>
+  </div>
+</div>
+<div class="container"></div>
+<h1></h1>
